@@ -1,8 +1,3 @@
-/**
-* Author: Wilbert Muza
-* Version: 1.0.0
-* Signature: wmuza
-*/
 
 'use strict';
 
@@ -39,7 +34,7 @@ class MainChat  {
 	}
 		
 	static LoadEventHandlers() {
-			Fake = [ 'Hi there, I\'m Wilbert and you?', 'Nice to meet you', 'How are you?', 'Not too bad, thanks', 'What do you do?', 'That\'s awesome', 'Codepen is a nice place to stay', 'I think you\'re a nice person', 'Why do you think that?', 'Can you explain?', 'Anyway I\'ve gotta go now', 'It was a pleasure chat with you', 'Time to make a new codepen', 'Bye', ':)' ]
+			Fake = [ 'Hi there, I\'m Dharini and you?', 'Nice to meet you', 'How are you?', 'Not too bad, thanks', 'What do you do?', 'That\'s awesome', 'Codepen is a nice place to stay', 'I think you\'re a nice person', 'Why do you think that?', 'Can you explain?', 'Anyway I\'ve gotta go now', 'It was a pleasure chat with you', 'Time to make a new codepen', 'Bye', ':)' ]
 
 			$('.chat-title').on('click', () => {
 				if ( $('.chat').height() == 500 )
